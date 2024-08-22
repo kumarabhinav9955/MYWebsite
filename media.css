@@ -1,0 +1,122 @@
+ @media (max-width: 728px) and (min-width:652px) {
+    .container {
+        width: 100%;
+        
+    }
+
+    body {
+        font-size: 14px;
+    }
+    .nav-list{
+        font-size:14px;
+        
+    }
+    .about-container{
+        text-align: center;
+    }
+    
+    .image-container{
+        text-align: center;
+    }
+    .Paragraph-Container{
+        text-align: center;
+    }
+    .skill-container{
+        text-align: center;
+        font-size: 14px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .Skills{
+        width:100%;
+    }
+    .my-skills{
+        text-align: center;
+        width:100%;
+    }
+    .my-frameworks{
+        text-align: center;
+        width:100%;
+
+    }
+    .project li a{
+        font-weight: bold;
+    }
+   
+   
+}
+
+@media  (min-width:350px) and (max-width:659px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        font-size: 12px;
+        
+    }
+
+
+
+    header {
+        width:100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-list{
+        display:none;
+
+    }
+    .Paragraph-Container{
+        text-align: center;
+        width:100%;
+
+    }
+    img{
+        width:10rem;
+        height:10rem;
+    }
+    .about-container{
+        width: 100%;
+        text-align: center;
+    }
+   
+    .logo{
+         text-align: center;
+    }
+    .skill-container{
+        text-align: center;
+        font-size: 11px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column-reverse;
+
+
+    }
+    footer{
+        text-align: center;
+        width:100%;
+
+    }
+    .Skills{
+        width:100%;
+    }
+    .my-skills{
+        text-align: center;
+        width:100%;
+    }
+    .my-frameworks{
+        text-align: center;
+        width:100%;
+
+    }
+    .project li a{
+        font-weight: bold;
+    }
+
+
+
+} 
+
+ 
