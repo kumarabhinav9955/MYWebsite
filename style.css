@@ -1,0 +1,286 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+
+}
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+header{
+    width:100%;
+    background-color: bisque;
+    color: black;
+    padding: 20px 20px;
+}
+
+#nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo{
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: black ;
+    
+}
+.nav-list{
+   list-style-type:none;
+   display: static;
+}
+
+.nav-list li{
+    display:inline;
+    padding:10px 10px;
+
+}
+
+.nav-list li a{
+    color:black;
+    text-decoration: none;
+    padding:20px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.nav-list li a:hover {
+    background-color: #c9dd56;
+    text-decoration: underline;
+  }
+
+#Home{
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding:20px;
+    text-decoration: underline;
+}
+
+#About{
+    padding:20px;
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+
+#Skills{
+    padding:20px;
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom:20px;
+    justify-content: space-around;
+    
+}
+.skill-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.skills-text{
+    font-weight: bold;
+}
+
+.my-skills{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    padding:20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column-reverse;
+    gap:10px;
+    
+}
+
+.my-skills li{
+    list-style-type:none;
+    font-style:oblique;
+    font-weight: bold;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}
+
+.skills-framework{
+    font-weight: bold;
+}
+.my-frameworks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding:20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+    gap:10px;
+
+}
+.my-frameworks li{
+    list-style-type:none;
+    font-style:oblique;
+    font-weight: bold;
+    padding:20px 20px;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+
+#Projects{
+    padding:20px;
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.project{
+    margin: 20px;
+}
+
+.project li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+}
+
+.project li a{
+    text-decoration: none;
+    color: black; 
+    text-decoration: underline;
+
+}
+.project1{
+    margin: 10px 0; 
+    padding: 10px;
+    background-color:antiquewhite; 
+    border: 1px solid ; 
+    border-radius: 5px;
+
+}
+
+.project2{
+    margin: 10px 0; 
+    padding: 10px;
+    background-color:antiquewhite; 
+    border: 1px solid ; 
+    border-radius: 5px;
+
+}
+
+#Contact{
+    padding:2px;
+    margin-top:5px;
+    align-items: center;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group{
+    margin-bottom:10px;
+}
+
+label{
+    display:flex;
+    margin-bottom: 10px;   
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="message"],
+textarea{
+    width:80%;
+    padding:10px;
+    border:1px solid;
+    border-radius: 4px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+#email-error{
+    color: red;
+}
+button{
+    width:85%;
+    padding:10px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    color:black;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: chocolate;
+}
+
+footer{
+    width: 100%;
+    background-color: bisque; 
+    padding:20px;
+
+}
+
+footer a{
+    background-color: #c9dd56;
+    padding: 20px;
+    align-items:center;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.Contact-me{
+    display: flex;
+    justify-content: space-around;
+}
+
