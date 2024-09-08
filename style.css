@@ -298,4 +298,30 @@ footer a{
     display: flex;
     justify-content: space-around;
 }
+.contact-container{
+    width:80%;
+   
+}
+.filed{
+   
+    width:100%;
+    gap:10px;
+}
+.text{
+ 
+    padding-bottom: 15px;
+}
+.email{
+    padding-bottom: 15px;
+ 
+}
+.final-button{
+   
+    padding-left: 40%;
+}
+.contact-container button{
+    width:50%;
+    border-radius: 20px;
+   
+}
 
