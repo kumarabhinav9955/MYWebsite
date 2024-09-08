@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -110,29 +110,35 @@
                 
             </div>
         </section>
-        <section id="Contact">
-            <div class="contact">
-                <h2>Contact</h2>
-                <form id="contactForm">
-                    <form action="https://api.web3forms.com/submit" method="POST"></form>
-                    <div class="form-group">
-                        <label for="name"><strong>Name:</strong></label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email"><strong>Email:</strong></label>
-                        <input type="text" id="email" name="email" required>
-                        <p id="email-error"></p>
-                    </div>
-                    <div class="form-group">
-                        <label for="message"><strong>Message:</strong></label>
-                        <input type="text" id="message" name="message" required>
-                    </div>
-                    <button type="submit">Send Message</button>
-                    <input type="hidden" name="access_key" value="6ef395ad-5643-4f7b-8800-8abf10ef199b">
-                </form>
-            </div>
-        </section>
+       <section id="Contact">
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+         <div class="contact-left-title">
+          <h2>Get in Touch</h2>
+          <hr>
+         </div>
+         <div class="filed">
+         <input type="hidden" name="access_key" value="6ef395ad-5643-4f7b-8800-8abf10ef199b">
+  <div class="text">
+         <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+        </div>
+        <div class="email">
+         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+        </div>
+        <div class="message">
+         <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+        </div>
+        <div class="final-button">
+         <button type="submit">Submit</button>
+        </div>
+        </div>
+ 
+        </form>
+        <div class="contact-right"></div>
+         
+      </div>
+    </section>
+has context menu
         <footer>
             <div class="Contact-me">
                 <a href="https://github.com/kumarabhinav9955" target="_blank" alt="Githubb">Github</a>
